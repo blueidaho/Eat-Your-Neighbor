@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fdfefe;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(10, 10, 10, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+::selection {
+  background-color: #7dd3fc;
+  color: #0a0a0a;
+}
+
+.text-outline {
+  -webkit-text-stroke: 2px #0a0a0a;
+  paint-order: stroke fill;
+}
+
+@layer components {
+  .sticker-border {
+    @apply border-[3px] border-ink rounded-3xl;
+  }
+}
