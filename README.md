@@ -9,16 +9,18 @@ npm install
 npm run dev
 ```
 
-## Email signups (Mailchimp)
+## Email signups (Hostinger SMTP)
 
 Copy `.env.example` to `.env.local` and fill in:
 
-- `MAILCHIMP_API_KEY` — Account > Extras > API keys
-- `MAILCHIMP_SERVER_PREFIX` — the suffix after the dash in your API key (e.g. `us21`)
-- `MAILCHIMP_AUDIENCE_ID` — Audience > Settings > Audience name and defaults
+- `SMTP_USER` — your Hostinger mailbox, e.g. `admin@eatyourneighbor.com`
+- `SMTP_PASSWORD` — that mailbox's password (Hostinger > Emails > Manage)
+- `SMTP_HOST` / `SMTP_PORT` — defaults already match Hostinger's standard SMTP settings
+- `NOTIFY_EMAIL` — optional, where signup notifications land (defaults to `SMTP_USER`)
 
-Without these set, the signup form still works end-to-end but returns a friendly
-error instead of saving the email.
+Every signup sends a notification email to `NOTIFY_EMAIL` with the visitor's
+address as the reply-to. Without these vars set, the form still works
+end-to-end but returns a friendly error instead of sending the email.
 
 ## Swapping art
 

@@ -8,7 +8,9 @@
       "Bash(find \"/c/Users/blueidaho/Desktop/claude eyn 7 18 2026\" -maxdepth 1 -newer \"/c/Users/blueidaho/Desktop/claude eyn 7 18 2026/package.json\" -type f 2>&1 *)",
       "Bash(cp \"game logo with black text.png\" public/images/logo-black-text.png)",
       "Bash(cp \"game logo with white text.png\" public/images/logo-white-text.png)",
-      "Bash(node -e ' *)"
+      "Bash(node -e ' *)",
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget"
     ]
   }
 }
