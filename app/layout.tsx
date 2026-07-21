@@ -15,6 +15,7 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'https://eatyourneighbor.com'),
   title: 'Eat Your Neighbor — Your neighbors are terrible. Time to eat them.',
   description:
     "A party game of dice, cards, and neighborhood cannibalism. Sign up to get notified the second we launch on Kickstarter — before your neighbors do.",
