@@ -47,7 +47,7 @@ export default function About() {
             className="space-y-4 text-lg font-semibold text-ink/80"
           >
             <p>
-              Every player raises a family of adorable little blobs called{' '}
+              Every player raises a family of adorable little nuggets we call{' '}
               <strong className="text-ink">Nugs</strong>. You keep them safe at
               home. You feed them. You love them.
             </p>
