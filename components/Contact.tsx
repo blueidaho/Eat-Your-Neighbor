@@ -5,7 +5,7 @@ import StickerCard from './StickerCard';
 import EmailForm from './EmailForm';
 
 const LINKS = [
-  { label: 'Instagram', href: 'https://instagram.com/eatyourneighborgame' },
+  { label: 'Instagram', href: 'https://instagram.com/offension_entertainment' },
   { label: 'TikTok', href: 'https://tiktok.com/@eatyourneighborgame' },
   { label: 'Email Us Directly', href: 'mailto:admin@eatyourneighbor.com' },
 ];
