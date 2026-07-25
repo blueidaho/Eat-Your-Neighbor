@@ -11,7 +11,13 @@
       "Bash(node -e ' *)",
       "mcp__visualize__read_me",
       "mcp__visualize__show_widget",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(grep -o '_next/static/chunks/[^\"]*' /tmp/page.html | head -5)",
+      "Bash(curl -s -D - -o /dev/null http://localhost:3000/)",
+      "Bash(curl -s -D - -o /dev/null http://localhost:3000/_next/static/chunks/app/page-0b796d77e59b20e9.js)",
+      "Bash(curl -s -D - -o /dev/null -H \"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\" http://localhost:3000/)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //F //PID 57052)"
     ]
   }
 }
