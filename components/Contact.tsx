@@ -6,7 +6,7 @@ import EmailForm from './EmailForm';
 
 const LINKS = [
   { label: 'Instagram', href: 'https://instagram.com/offension_entertainment' },
-  { label: 'TikTok', href: 'https://tiktok.com/@eatyourneighborgame' },
+  { label: 'TikTok', href: 'https://tiktok.com/@offension_entertainment' },
   { label: 'Email Us Directly', href: 'mailto:admin@eatyourneighbor.com' },
 ];
 
