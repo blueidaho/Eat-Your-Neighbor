@@ -86,7 +86,7 @@ export default function EmailForm({ compact = false }: { compact?: boolean }) {
         </motion.p>
       )}
       <p className="mt-2 text-xs text-ink/50 font-semibold">
-        No spam. Just one email when we go live on Kickstarter. Probably some confetti emojis.
+        No spam. We will email you when we go live on Kickstarter. Probably some confetti emojis too.
       </p>
     </div>
   );

@@ -21,7 +21,7 @@ const RULES = [
   },
   {
     q: 'How long is a game?',
-    a: "About 30 minutes. Longer if someone flips the table after 'Bye Karen.' We've seen it happen. We did not clean it up.",
+    a: "About 20-30 minutes. Longer if someone flips the table after 'Bye Karen.' We've seen it happen. We did not clean it up.",
   },
   {
     q: 'Do I need to actually hate my neighbors to play?',
@@ -29,7 +29,7 @@ const RULES = [
   },
   {
     q: "What's in the box?",
-    a: 'One board, six Home cards, over 80 event cards, a fistful of dice, and the crushing weight of what you did to get here.',
+    a: 'One board, six Home cards, over 45 event cards, a pair of dice, and the crushing weight of what you did to get here.',
   },
 ];
 

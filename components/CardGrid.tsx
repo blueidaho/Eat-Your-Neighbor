@@ -55,7 +55,7 @@ export default function CardGrid() {
             Ways to Ruin Someone&apos;s Tuesday
           </h2>
           <p className="text-white/70 font-semibold text-lg max-w-2xl mx-auto">
-            A small, deeply unhinged sample of the {'>'}80 cards standing between
+            A small, deeply unhinged sample of {'>'}45 cards standing between
             your Nugs and a peaceful afternoon.
           </p>
         </motion.div>
@@ -80,7 +80,7 @@ export default function CardGrid() {
 
           <StickerCard rotate={1.5} delay={0.25} className="flex flex-col items-center justify-center p-6 text-ink text-center bg-sky">
             <p className="font-display font-extrabold text-2xl mb-2">
-              ...and 75 more.
+              ...and more.
             </p>
             <p className="font-bold text-ink/70">
               We ran out of room. Not out of bad ideas.
