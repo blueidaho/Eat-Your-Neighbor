@@ -18,7 +18,8 @@
       "Bash(curl -s -D - -o /dev/null -H \"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\" http://localhost:3000/)",
       "Bash(netstat -ano)",
       "Bash(taskkill //F //PID 57052)",
-      "Bash(rm -rf .next)"
+      "Bash(rm -rf .next)",
+      "Bash(npm ls *)"
     ]
   }
 }
