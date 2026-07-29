@@ -28,7 +28,22 @@
       "Bash(grep -o 'S:0\\\\|\\\\$RC\\(' /tmp/next16-404.html)",
       "Bash(taskkill //F //PID 18088)",
       "Bash(taskkill //F //PID 11544)",
-      "Bash(taskkill //F //PID 14912)"
+      "Bash(taskkill //F //PID 14912)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" https://eatyourneighbor.com/robots.txt)",
+      "Bash(curl -s https://eatyourneighbor.com/robots.txt)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" https://eatyourneighbor.com/sitemap.xml)",
+      "Bash(curl -s https://eatyourneighbor.com/sitemap.xml)",
+      "Bash(curl -s https://eatyourneighbor.com/)",
+      "Bash(curl -s https://eatyourneighbor.com/blog)",
+      "Bash(curl -s https://eatyourneighbor.com/blog/eat-your-neighbor-kickstarter-faq)",
+      "Bash(curl -s -o /dev/null -w \"robots.txt: %{http_code}\\\\n\" https://eatyourneighbor.com/robots.txt)",
+      "Bash(curl -s -o /dev/null -w \"sitemap.xml: %{http_code}\\\\n\" https://eatyourneighbor.com/sitemap.xml)",
+      "Bash(curl -s -D - -o /dev/null https://eatyourneighbor.com/)",
+      "Bash(awk '{print length\": \"$0}')",
+      "Bash(curl -s \"https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https://eatyourneighbor.com&strategy=mobile&category=performance&category=seo&category=best-practices\" -o /tmp/psi.json --max-time 60)",
+      "Bash(echo \"exit code: $?\")",
+      "Bash(curl -s http://localhost:3000/)",
+      "Bash(curl -s http://localhost:3000/blog/dark-humor-card-games-for-adults -o /tmp/post2.html)"
     ]
   }
 }

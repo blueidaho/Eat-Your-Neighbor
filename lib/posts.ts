@@ -1,6 +1,8 @@
 export type Post = {
   slug: string;
   title: string;
+  /** Short version (<=60 chars) for the <title> tag / SERP snippet. */
+  metaTitle: string;
   description: string;
   html: string;
   jsonLd: object[];
@@ -10,6 +12,7 @@ export const posts: Post[] = [
   {
     slug: 'games-like-exploding-kittens',
     title: '9 Games Like Exploding Kittens (Ranked by How Chaotic They Get)',
+    metaTitle: '9 Games Like Exploding Kittens, Ranked by Chaos',
     description:
       'The best card games like Exploding Kittens, ranked from family-safe chaos to dark comedy. Includes prices, player counts, and where to buy each one.',
     html: `
@@ -102,6 +105,7 @@ export const posts: Post[] = [
   {
     slug: 'dark-humor-card-games-for-adults',
     title: '7 Dark Humor Card Games for Adults Who Are Done With "Family-Friendly"',
+    metaTitle: '7 Dark Humor Card Games for Adults',
     description:
       'Dark humor card games for adults, ranked by how far each one is willing to go. Includes prices and player counts.',
     html: `
@@ -187,6 +191,7 @@ export const posts: Post[] = [
   {
     slug: 'eat-your-neighbor-kickstarter-faq',
     title: 'Eat Your Neighbor on Kickstarter: Everything to Know Before You Back It',
+    metaTitle: 'Eat Your Neighbor: Kickstarter FAQ',
     description:
       'What Eat Your Neighbor is, what\'s in the box, how many players, when it launches, and why it\'s built for Exploding Kittens fans who want something darker.',
     html: `

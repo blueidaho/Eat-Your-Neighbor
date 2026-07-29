@@ -16,10 +16,10 @@ export function generateMetadata({
   const post = getPost(params.slug);
   if (!post) return {};
   return {
-    title: `${post.title} — Eat Your Neighbor`,
+    title: post.metaTitle,
     description: post.description,
     openGraph: {
-      title: post.title,
+      title: post.metaTitle,
       description: post.description,
     },
   };
@@ -38,6 +38,9 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
         >
           &larr; Back to the blog
         </Link>
+        <h1 className="font-display font-extrabold text-3xl sm:text-4xl mb-6">
+          {post.title}
+        </h1>
         <div
           className="prose prose-lg max-w-none"
           dangerouslySetInnerHTML={{ __html: post.html }}
