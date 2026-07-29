@@ -47,9 +47,37 @@ const config: Config = {
         'comic-lg': '10px 10px 0px 0px #0A0A0A',
         'comic-sky': '6px 6px 0px 0px #7DD3FC',
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            '--tw-prose-body': '#0A0A0A',
+            '--tw-prose-headings': '#0A0A0A',
+            '--tw-prose-bold': '#0A0A0A',
+            '--tw-prose-links': '#0A0A0A',
+            '--tw-prose-bullets': '#0A0A0A',
+            '--tw-prose-th-borders': '#0A0A0A',
+            '--tw-prose-td-borders': '#0A0A0A',
+            fontFamily: 'var(--font-body)',
+            a: {
+              color: '#0A0A0A',
+              fontWeight: '700',
+              textDecoration: 'underline',
+              textDecorationColor: '#7DD3FC',
+              textDecorationThickness: '3px',
+            },
+            'h1, h2, h3': {
+              fontFamily: 'var(--font-display)',
+              fontWeight: '800',
+            },
+            th: {
+              backgroundColor: '#7DD3FC',
+            },
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };
 
 export default config;

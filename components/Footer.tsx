@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Eyeball from './Eyeball';
 
 export default function Footer() {
@@ -9,6 +10,12 @@ export default function Footer() {
           <span className="font-display font-extrabold text-lg">
             Eat Your Neighbor
           </span>
+          <Link
+            href="/blog"
+            className="ml-2 text-sm font-bold text-ink/50 hover:text-ink underline"
+          >
+            Blog
+          </Link>
         </div>
 
         <p className="text-center text-sm font-semibold text-ink/60 max-w-md">
