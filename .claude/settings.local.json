@@ -43,7 +43,10 @@
       "Bash(curl -s \"https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=https://eatyourneighbor.com&strategy=mobile&category=performance&category=seo&category=best-practices\" -o /tmp/psi.json --max-time 60)",
       "Bash(echo \"exit code: $?\")",
       "Bash(curl -s http://localhost:3000/)",
-      "Bash(curl -s http://localhost:3000/blog/dark-humor-card-games-for-adults -o /tmp/post2.html)"
+      "Bash(curl -s http://localhost:3000/blog/dark-humor-card-games-for-adults -o /tmp/post2.html)",
+      "Bash(curl -s -H \"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\" https://eatyourneighbor.com/)",
+      "Bash(curl -s -D - -o /dev/null -H \"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\" https://eatyourneighbor.com/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" https://eatyourneighbor.com/blog)"
     ]
   }
 }

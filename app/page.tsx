@@ -3,6 +3,7 @@ import Trailer from '@/components/Trailer';
 import About from '@/components/About';
 import CardGrid from '@/components/CardGrid';
 import RulesFaq from '@/components/RulesFaq';
+import CreatorAbout from '@/components/CreatorAbout';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <CardGrid />
       <RulesFaq />
+      <CreatorAbout />
       <Contact />
       <Footer />
     </main>
