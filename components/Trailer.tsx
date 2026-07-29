@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import StickerCard from './StickerCard';
 
-const YOUTUBE_ID = 'C697IGseMfs';
+const YOUTUBE_ID = 'Jl5BCu5-hGs';
 
 export default function Trailer() {
   const [playing, setPlaying] = useState(false);
