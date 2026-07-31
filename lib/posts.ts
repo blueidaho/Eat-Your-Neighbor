@@ -424,6 +424,172 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: 'white-elephant-board-games',
+    title: 'Best White Elephant Gifts for People Who Love Board Games',
+    metaTitle: 'Best White Elephant Gifts for Board Game Lovers',
+    description:
+      'What makes a white elephant gift actually get stolen: cheap, funny, and good enough to fight over. A party game guide for your next gift exchange.',
+    html: `
+<p><strong>Short answer:</strong> White elephant gifts should be funny, cheap enough to not feel like a real present, and good enough that people actually fight over them. A boxed party game hits all three &mdash; and <strong>Eat Your Neighbor</strong> is built specifically to be the gift someone steals three times.</p>
+<p>Most white elephant gift exchanges have a price cap around $25 and a simple rule: bring something people will actually want to steal. Gag gifts are funny once. A genuinely good, funny party game gets stolen repeatedly, which is the entire point of the game-within-the-game.</p>
+
+<h2>What actually makes a good white elephant gift</h2>
+<p>The best white elephant board game gifts share three things: they're funny to unwrap in front of a group, they're cheap enough to not feel like you spent real money, and they're good enough that the next person in line actually wants to steal it instead of taking a new box.</p>
+
+<h2>Our pick: Eat Your Neighbor</h2>
+<p>A card, dice, and board game for 2&ndash;6 players where everyone raises a family of small creatures called Nugs, and the whole table is trying to get yours eaten, buried, or run over first. It plays in 20&ndash;30 minutes, which matters at a party where people are also eating, drinking, and doing a gift exchange at the same time &mdash; nobody wants to explain a 90-minute rulebook between courses. <a href="/#cards">See sample cards &rarr;</a></p>
+
+<h2>Other white elephant traditions worth stealing (pun intended)</h2>
+<p>If you want to make the exchange itself funnier, not just the gifts:</p>
+<ul>
+<li><strong>White Elephant Bingo</strong> &mdash; players mark off a card as things happen during the exchange (a new gift gets opened, a steal happens, someone argues about the rules).</li>
+<li><strong>The Auction Game</strong> &mdash; everyone bids on gifts using fake currency instead of the standard steal-based turn order.</li>
+<li><strong>Themed White Elephant</strong> &mdash; everyone brings a gift that fits a specific theme (ugliest sweater-adjacent item, weirdest kitchen gadget, etc.), which works especially well if the theme is "something your terrible neighbor would actually own."</li>
+</ul>
+
+<h2>The one rule that matters most</h2>
+<p>Keep the price cap low and the fun-to-actually-steal ratio high. A $12&ndash;20 party game beats a $25 candle almost every time, because a candle doesn't get stolen three times before the exchange ends.</p>
+<p>Eat Your Neighbor is launching soon on Kickstarter. <a href="/">Sign up now</a> &mdash; before your neighbors do.</p>
+`,
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: 'Best White Elephant Gifts for People Who Love Board Games',
+        description:
+          'What makes a white elephant gift actually get stolen: cheap, funny, and good enough to fight over. A party game guide for your next gift exchange.',
+        author: { '@type': 'Organization', name: 'Eat Your Neighbor' },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Eat Your Neighbor',
+          url: 'https://eatyourneighbor.com',
+        },
+        mainEntityOfPage: 'https://eatyourneighbor.com/blog/white-elephant-board-games',
+      },
+    ],
+  },
+  {
+    slug: 'eat-your-neighbor-vs-exploding-kittens',
+    title: 'Eat Your Neighbor vs. Exploding Kittens: Which Should You Buy?',
+    metaTitle: 'Eat Your Neighbor vs. Exploding Kittens',
+    description:
+      "A head-to-head comparison of Eat Your Neighbor and Exploding Kittens covering players, play time, tone, and which one fits your group.",
+    html: `
+<p><strong>Short answer:</strong> Buy Exploding Kittens if you want a lighter, family-safe game where the threat comes from a shared shuffled deck. Buy <strong>Eat Your Neighbor</strong> if you've already got Exploding Kittens and want a darker, more direct game where you can target a specific opponent by name instead of just hoping you don't draw the wrong card.</p>
+<p>They're close cousins mechanically &mdash; fast rounds, card-based sabotage, a rulebook you can explain in under five minutes &mdash; but the actual <em>feeling</em> at the table is different enough that "which one should I buy" has a real answer depending on your group.</p>
+
+<h2>The core difference</h2>
+<p><strong>Exploding Kittens</strong> is a shared-threat game. The danger (the exploding kitten card) sits in a deck everyone draws from. Nobody chose to target you specifically &mdash; you just drew badly. 2&ndash;5 players.</p>
+<p><strong>Eat Your Neighbor</strong> is a direct-threat game. Cards like <strong>Bye Karen</strong> and <strong>Road Kill</strong> let a specific player choose to come after your specific "family" of Nugs. When it happens, you know exactly who did it and why. 2&ndash;6 players, about 20&ndash;30 minutes.</p>
+<p>That one design choice changes the social temperature of the whole game. Exploding Kittens creates tension through randomness. Eat Your Neighbor creates tension through personal accountability &mdash; the friend across the table just did that to you, on purpose, and everyone saw it happen.</p>
+
+<h2>Side-by-side</h2>
+<table>
+<thead><tr><th></th><th>Exploding Kittens</th><th>Eat Your Neighbor</th></tr></thead>
+<tbody>
+<tr><td>Players</td><td>2&ndash;5</td><td>2&ndash;6</td></tr>
+<tr><td>Play time</td><td>~15 minutes</td><td>20&ndash;30 minutes</td></tr>
+<tr><td>Threat type</td><td>Shared deck (random)</td><td>Direct, player-targeted</td></tr>
+<tr><td>Tone</td><td>Family-friendly chaos</td><td>Dark comedy, adult-leaning</td></tr>
+<tr><td>Components</td><td>Cards only</td><td>Board, dice, cards</td></tr>
+</tbody>
+</table>
+
+<h2>Which one should you actually buy?</h2>
+<ul>
+<li><strong>New to this style of game entirely?</strong> Start with Exploding Kittens &mdash; it's the gentler on-ramp.</li>
+<li><strong>Already own Exploding Kittens and want more?</strong> Eat Your Neighbor is built for exactly that upgrade.</li>
+<li><strong>Want family-safe for a wide age range?</strong> Exploding Kittens.</li>
+<li><strong>Want your adult friend group to actually gasp out loud?</strong> Eat Your Neighbor.</li>
+</ul>
+<p>Most groups end up wanting both &mdash; they solve slightly different nights. <a href="/#rules">See Eat Your Neighbor's full rulebook and sample cards &rarr;</a></p>
+<p>Eat Your Neighbor is launching soon on Kickstarter. <a href="/">Sign up now</a> &mdash; before your neighbors do.</p>
+`,
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: 'Eat Your Neighbor vs. Exploding Kittens: Which Should You Buy?',
+        description:
+          'A head-to-head comparison of Eat Your Neighbor and Exploding Kittens covering players, play time, tone, and which one fits your group.',
+        author: { '@type': 'Organization', name: 'Eat Your Neighbor' },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Eat Your Neighbor',
+          url: 'https://eatyourneighbor.com',
+        },
+        mainEntityOfPage:
+          'https://eatyourneighbor.com/blog/eat-your-neighbor-vs-exploding-kittens',
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: 'Is Eat Your Neighbor similar to Exploding Kittens?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: "Yes, mechanically they're close cousins — both are fast, card-based sabotage games with simple rules. The key difference is that Exploding Kittens creates a shared, random threat from the deck, while Eat Your Neighbor lets players directly target a specific opponent.",
+            },
+          },
+          {
+            '@type': 'Question',
+            name: 'Should I buy Eat Your Neighbor or Exploding Kittens first?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Exploding Kittens is the gentler, more family-friendly on-ramp. Eat Your Neighbor is built for players who already enjoy that style and want a darker, more direct, adult-leaning experience.',
+            },
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'kickstarter-board-games-worth-backing',
+    title: 'How to Tell Which Kickstarter Board Games Are Actually Worth Backing',
+    metaTitle: 'Which Kickstarter Board Games Are Worth Backing',
+    description:
+      'A practical checklist for evaluating tabletop Kickstarter campaigns before you pledge: specific mechanics, real footage, and whether the creator shows up.',
+    html: `
+<p><strong>Short answer:</strong> Don't evaluate a Kickstarter campaign like a finished product &mdash; it's a promise, not a purchase. The campaigns worth backing can explain their mechanics in specific, operational terms (what happens on your turn, what happens when you fall behind), not just mood-board adjectives and atmospheric art. Everything else is a coin flip.</p>
+<p>Backing a board game on Kickstarter is different from buying one off a shelf. There's no returns process, no guarantee of delivery, and sometimes a year-plus wait between pledging and getting a box. That's not a reason to avoid crowdfunding &mdash; some of the best games of the last decade started this way &mdash; but it is a reason to actually check a few things before you pledge.</p>
+
+<h2>1. Can they explain the game without adjectives?</h2>
+<p>The single biggest tell: does the campaign page describe exactly how a turn works, what the tension loop is in the final round, and what happens when a player falls behind &mdash; or does it lean entirely on words like "epic," "immersive," and "unforgettable"? A campaign that can't describe its own mechanics in plain, specific language is often still looking for a game to attach to its concept.</p>
+
+<h2>2. Is there real gameplay footage, not just concept art?</h2>
+<p>Concept art and mockups are cheap. Actual footage of real people playing actual prototypes &mdash; even rough ones &mdash; is the strongest signal that a playable game exists today, not just an idea of one.</p>
+
+<h2>3. Does the creator show up, or hide behind the campaign page?</h2>
+<p>Campaigns run by someone who answers comments, posts real updates, and is visibly present tend to ship. Campaigns that go quiet after the funding goal is hit are the ones that generate the most "still waiting" threads a year later.</p>
+
+<h2>4. What we're doing about all of this, specifically</h2>
+<p>We're not asking you to trust us blind before our own campaign opens. The board, the cards, the rules &mdash; all of it is already viewable right now, before there's a single dollar on the table. <a href="/#rules">See the actual rulebook and sample cards &rarr;</a> The trailer isn't concept art, it's the actual game. That's the standard we think every campaign should be held to, including ours.</p>
+
+<h2>The short version</h2>
+<p>Read past the adjectives. Look for actual footage. Check whether the creator shows up. And if a campaign won't show you the real thing before asking for your money, that tells you something too.</p>
+<p>Eat Your Neighbor is launching soon on Kickstarter. <a href="/">Sign up now</a> to see everything before you back it &mdash; before your neighbors do.</p>
+`,
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: 'How to Tell Which Kickstarter Board Games Are Actually Worth Backing',
+        description:
+          'A practical checklist for evaluating tabletop Kickstarter campaigns before you pledge: specific mechanics, real footage, and whether the creator shows up.',
+        author: { '@type': 'Organization', name: 'Eat Your Neighbor' },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Eat Your Neighbor',
+          url: 'https://eatyourneighbor.com',
+        },
+        mainEntityOfPage:
+          'https://eatyourneighbor.com/blog/kickstarter-board-games-worth-backing',
+      },
+    ],
+  },
 ];
 
 export function getPost(slug: string) {
