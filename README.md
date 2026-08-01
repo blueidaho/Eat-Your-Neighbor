@@ -9,18 +9,21 @@ npm install
 npm run dev
 ```
 
-## Email signups (Hostinger SMTP)
+## Email signups (MailerLite + Hostinger SMTP)
 
 Copy `.env.example` to `.env.local` and fill in:
 
-- `SMTP_USER` — your Hostinger mailbox, e.g. `admin@eatyourneighbor.com`
-- `SMTP_PASSWORD` — that mailbox's password (Hostinger > Emails > Manage)
+- `MAILERLITE_API_KEY` — MailerLite dashboard > account icon > Integrations > API > Generate new token
+- `MAILERLITE_GROUP_ID` — optional, adds subscribers to a specific MailerLite group
+- `SMTP_USER` / `SMTP_PASSWORD` — your Hostinger mailbox, for a best-effort notification email
 - `SMTP_HOST` / `SMTP_PORT` — defaults already match Hostinger's standard SMTP settings
 - `NOTIFY_EMAIL` — optional, where signup notifications land (defaults to `SMTP_USER`)
 
-Every signup sends a notification email to `NOTIFY_EMAIL` with the visitor's
-address as the reply-to. Without these vars set, the form still works
-end-to-end but returns a friendly error instead of sending the email.
+Every signup is added to your MailerLite list (the source of truth — export,
+segment, or mass-email from there) and also sends a best-effort notification
+email to `NOTIFY_EMAIL`. Without `MAILERLITE_API_KEY` set, the form returns a
+friendly error instead of subscribing anyone; the SMTP notification is
+optional and won't fail the request if it's missing or fails.
 
 ## Swapping art
 
