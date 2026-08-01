@@ -13,7 +13,7 @@ const RULES = [
   },
   {
     q: 'How do you actually win?',
-    a: 'Have more living Nugs than anyone else when the last card is drawn. Grief is not a tiebreaker. Neither is calling a family meeting.',
+    a: 'Be the last family standing. The only family with Nugs left alive. Grief is not a tiebreaker. Neither is calling a family meeting.',
   },
   {
     q: 'Is this appropriate for kids?',
