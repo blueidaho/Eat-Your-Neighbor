@@ -46,11 +46,9 @@ export default function CreatorAbout() {
               the whole spark. I ran with it.
             </p>
             <p>
-              Every card, every drawing, every rule in this box came out of
-              my own head and my own hands. The videos you&apos;ve seen on
-              YouTube and TikTok? Also me &mdash; writing, voiceovers, music,
-              all of it. There&apos;s no studio and no focus group softening
-              the jokes.
+              99% of every card, every drawing, every rule in this box came
+              out of my own head and my own hands. There&apos;s no studio and
+              no focus group softening the jokes.
             </p>
             <p className="text-ink font-bold">
               If something in this game is too much, that&apos;s on me. If
