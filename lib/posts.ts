@@ -590,6 +590,233 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: 'halloween-party-games-for-adults',
+    title: "8 Halloween Party Games for Adults (That Aren't Bobbing for Apples)",
+    metaTitle: '8 Halloween Party Games for Adults, Ranked',
+    description:
+      'Halloween party games for adults, ranked by how much they actually lean into the season instead of just tolerating it — including one that\'s already set in a cemetery.',
+    html: `
+<p><strong>Short answer:</strong> Skip the kid-party leftovers. For a group that wants actual dark comedy instead of plastic spiders, start with a murder mystery kit for a scripted night, or <strong>Eat Your Neighbor</strong> for something that needs zero setup, plays in under 30 minutes, and is built entirely around a cemetery, backyard BBQs, and burying your neighbors &mdash; which is to say, it's already a Halloween party game even though it wasn't technically designed as one.</p>
+<p>Most "Halloween games for adults" lists are the same six ideas: apple bobbing (gross), a costume contest (fine, but not a game), and pin the wart on the witch (a kids' game with a grown-up font). Here's a list of games that actually earn a spot at an adult party &mdash; ranked by how much they lean into the season instead of just tolerating it.</p>
+
+<h2>Quick comparison</h2>
+<table>
+<thead><tr><th>Game</th><th>Players</th><th>Setup</th><th>Halloween-Coded</th></tr></thead>
+<tbody>
+<tr><td><strong>Eat Your Neighbor</strong></td><td><strong>2&ndash;6</strong></td><td><strong>None</strong></td><td><strong>Cemetery, dark comedy, zero rebrand needed</strong></td></tr>
+<tr><td>Murder mystery dinner kit</td><td>6&ndash;12</td><td>High (roles, printouts)</td><td>Full theme night</td></tr>
+<tr><td>Werewolf / Mafia</td><td>5+</td><td>Low</td><td>Social deduction, spooky by name only</td></tr>
+<tr><td>Horror movie trivia</td><td>Any</td><td>Low</td><td>Depends on question bank</td></tr>
+<tr><td>Ouija board</td><td>2+</td><td>None</td><td>Atmosphere, not really a "game"</td></tr>
+<tr><td>Pumpkin carving contest</td><td>Any</td><td>Medium (mess)</td><td>Craft, not competition</td></tr>
+<tr><td>Scavenger hunt (haunted house)</td><td>Any</td><td>Medium</td><td>Good for bigger parties</td></tr>
+<tr><td>Cards Against Humanity</td><td>4&ndash;20</td><td>None</td><td>Dark, but not seasonal</td></tr>
+</tbody>
+</table>
+
+<h2>1. Eat Your Neighbor &mdash; the one that's already dressed for the occasion</h2>
+<p>You don't have to reskin this one for Halloween &mdash; it already lives in a cemetery. Every player raises a family of small creatures called Nugs, and the rest of the table is trying to get yours eaten, buried, or run over before you do it to theirs. Sample cards include <strong>Bye Karen</strong> (straight to the cemetery) and <strong>Take a Dump</strong> (bury everyone you've already eaten). 2&ndash;6 players, 20&ndash;30 minutes, and it plays just as well as a between-courses game at a Halloween dinner as it does as the main event.</p>
+<p><a href="/#cards">See sample cards &rarr;</a></p>
+
+<h2>2. Murder mystery dinner kit</h2>
+<p>The classic for a reason: everyone gets a secret role, a motive, and a handful of clues to feed out over the course of the night. Best for groups willing to actually commit to a character and a full evening &mdash; this is the one to plan around, not the one to grab last minute.</p>
+
+<h2>3. Werewolf or Mafia</h2>
+<p>Social deduction with a horror-movie coat of paint: villagers vs. a hidden pack of werewolves, one round of elimination at a time. Needs at least 5&ndash;6 players to get good, and it runs on group energy more than any component in the box.</p>
+
+<h2>4. Horror movie trivia</h2>
+<p>Only as good as the question bank, but it's the easiest game on this list to run with zero prep if you already know your group's movie taste. Split into teams to keep the pace up.</p>
+
+<h2>5. Ouija board</h2>
+<p>Not really a "game" in the competitive sense, but it's the single most requested Halloween party prop there is. Works best as a 10-minute activity between other games, not the whole night.</p>
+
+<h2>6. Pumpkin carving contest</h2>
+<p>More craft than game, but adding a timer and a theme ("scariest," "most disappointing") turns it into a real competition with a winner.</p>
+
+<h2>7. Haunted house scavenger hunt</h2>
+<p>Best for bigger parties or if you're already decorating a space &mdash; hide clues around the house or yard and let teams race to solve them. High setup cost, high payoff for a crowd.</p>
+
+<h2>8. Cards Against Humanity</h2>
+<p>Dark, but not actually Halloween-flavored &mdash; it's on this list because it's the game people default to when they want "adult" without doing any theming work. If your group already owns it, it's a fine warm-up before something more seasonal.</p>
+
+<h2>Which one should you actually play?</h2>
+<ul>
+<li><strong>Want zero setup and a game that's already on-theme?</strong> Eat Your Neighbor.</li>
+<li><strong>Planning a whole themed evening?</strong> Murder mystery dinner kit.</li>
+<li><strong>Have a big group and love bluffing?</strong> Werewolf or Mafia.</li>
+<li><strong>Hosting last-minute with no prep time?</strong> Horror movie trivia.</li>
+</ul>
+<p>Eat Your Neighbor is launching soon on Kickstarter. <a href="/">Sign up now</a> &mdash; before your neighbors do.</p>
+`,
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: "8 Halloween Party Games for Adults (That Aren't Bobbing for Apples)",
+        description:
+          'Halloween party games for adults, ranked by how much they actually lean into the season instead of just tolerating it, including one that\'s already set in a cemetery.',
+        author: { '@type': 'Organization', name: 'Eat Your Neighbor' },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Eat Your Neighbor',
+          url: 'https://eatyourneighbor.com',
+        },
+        mainEntityOfPage: 'https://eatyourneighbor.com/blog/halloween-party-games-for-adults',
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Eat Your Neighbor' },
+          { '@type': 'ListItem', position: 2, name: 'Murder mystery dinner kit' },
+          { '@type': 'ListItem', position: 3, name: 'Werewolf / Mafia' },
+          { '@type': 'ListItem', position: 4, name: 'Horror movie trivia' },
+          { '@type': 'ListItem', position: 5, name: 'Ouija board' },
+          { '@type': 'ListItem', position: 6, name: 'Pumpkin carving contest' },
+          { '@type': 'ListItem', position: 7, name: 'Haunted house scavenger hunt' },
+          { '@type': 'ListItem', position: 8, name: 'Cards Against Humanity' },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'best-2-player-card-games-for-adults',
+    title: '7 Best 2-Player Card Games for Adults (No, Not Just Rummy)',
+    metaTitle: '7 Best 2-Player Card Games for Adults',
+    description:
+      'The best 2-player card games for adults, split between quiet classics built for exactly two people and louder games that still hold up without a full table.',
+    html: `
+<p><strong>Short answer:</strong> For a quiet, strategic duel, get Gin Rummy or a two-player-only game like Bezique or Jaipur. For something with real tension and trash talk at just two players, get <strong>Eat Your Neighbor</strong> &mdash; built for 2&ndash;6 players, and one of the few chaos-style card games that actually holds up when it's just you and one other person instead of a full table.</p>
+<p>Most "party" card games fall apart at two players &mdash; half the fun is watching a third or fourth person get targeted instead of you. This list is split for that reason: quiet classics that were built for exactly two people, and louder games that scale down without losing their bite.</p>
+
+<h2>Quick comparison</h2>
+<table>
+<thead><tr><th>Game</th><th>Built For</th><th>Play Time</th><th>Vibe</th></tr></thead>
+<tbody>
+<tr><td>Gin Rummy</td><td>2 only</td><td>~20 min</td><td>Classic, skill-based</td></tr>
+<tr><td>Bezique</td><td>2 only</td><td>~30 min</td><td>Old-world trick-taking</td></tr>
+<tr><td>Jaipur</td><td>2 only</td><td>~30 min</td><td>Trading, light strategy</td></tr>
+<tr><td><strong>Eat Your Neighbor</strong></td><td><strong>2&ndash;6</strong></td><td><strong>20&ndash;30 min</strong></td><td><strong>Chaotic, dark comedy, still bites at 2</strong></td></tr>
+<tr><td>Lost Cities</td><td>2 only</td><td>~30 min</td><td>Push-your-luck, calmer tone</td></tr>
+<tr><td>Codenames Duet</td><td>2 only</td><td>~15 min</td><td>Cooperative, not competitive</td></tr>
+<tr><td>Monopoly Deal</td><td>2&ndash;5</td><td>~20 min</td><td>Fast, familiar, light</td></tr>
+</tbody>
+</table>
+
+<h2>1. Gin Rummy &mdash; the classic that never left</h2>
+<p>Draw, discard, form melds, reach 100 points first. Needs nothing but a standard deck and works anywhere &mdash; a plane, a porch, a waiting room. The safest pick on this list because everyone already half-knows the rules.</p>
+
+<h2>2. Bezique &mdash; for people who want something with more history</h2>
+<p>A French trick-taking game from the 1800s that rewards actually paying attention to what's been played. Slower and more cerebral than most modern card games; a good pick for a quiet night in.</p>
+
+<h2>3. Jaipur &mdash; trading instead of fighting</h2>
+<p>A light strategy game about building camel caravans and trading goods. Calmer than most two-player games on this list, and a good on-ramp for someone who says they "don't really like card games."</p>
+
+<h2>4. Eat Your Neighbor &mdash; the one that still has teeth at two players</h2>
+<p>Most chaos-style party card games need four-plus people to work, because the fun comes from watching someone else get targeted. Eat Your Neighbor doesn't have that problem: with only one other player, every single card is aimed directly at you, which makes a 2-player round somehow more personal, not less. Each player raises a family of small creatures called Nugs; the goal is getting the other person's Nugs eaten, buried, or run over before they do it to yours. 2&ndash;6 players, 20&ndash;30 minutes, plays exactly as fast at two as it does at six.</p>
+<p><a href="/#cards">See sample cards &rarr;</a></p>
+
+<h2>5. Lost Cities &mdash; push-your-luck, minus the trash talk</h2>
+<p>A calmer push-your-luck game about building expedition paths without running them at a loss. Good middle ground between "quiet classic" and "actual competition."</p>
+
+<h2>6. Codenames Duet &mdash; for couples who'd rather cooperate than compete</h2>
+<p>Not competitive at all &mdash; you and one other player work together to get through a shared board of code words before running out of guesses. The right pick if your two-player games always end in an argument and you'd like one that doesn't.</p>
+
+<h2>7. Monopoly Deal &mdash; familiar, fast, low stakes</h2>
+<p>A stripped-down, card-only version of Monopoly's core loop: collect property sets, block your opponent, avoid losing your hand to rent cards. Works at 2 players, though it's built to flex up to 5.</p>
+
+<h2>Which one should you actually buy?</h2>
+<ul>
+<li><strong>Want quiet strategy, just the two of you?</strong> Gin Rummy or Bezique.</li>
+<li><strong>Want something calmer but still a real game?</strong> Jaipur or Lost Cities.</li>
+<li><strong>Want actual tension and trash talk at two players, and a game that also scales up later?</strong> Eat Your Neighbor.</li>
+<li><strong>Playing with a partner who hates competing directly?</strong> Codenames Duet.</li>
+</ul>
+<p>Eat Your Neighbor is launching soon on Kickstarter. <a href="/">Sign up now</a> &mdash; before your neighbors do.</p>
+`,
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: '7 Best 2-Player Card Games for Adults (No, Not Just Rummy)',
+        description:
+          'The best 2-player card games for adults, split between quiet classics built for exactly two people and louder games that still hold up without a full table.',
+        author: { '@type': 'Organization', name: 'Eat Your Neighbor' },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Eat Your Neighbor',
+          url: 'https://eatyourneighbor.com',
+        },
+        mainEntityOfPage: 'https://eatyourneighbor.com/blog/best-2-player-card-games-for-adults',
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Gin Rummy' },
+          { '@type': 'ListItem', position: 2, name: 'Bezique' },
+          { '@type': 'ListItem', position: 3, name: 'Jaipur' },
+          { '@type': 'ListItem', position: 4, name: 'Eat Your Neighbor' },
+          { '@type': 'ListItem', position: 5, name: 'Lost Cities' },
+          { '@type': 'ListItem', position: 6, name: 'Codenames Duet' },
+          { '@type': 'ListItem', position: 7, name: 'Monopoly Deal' },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'funny-gifts-for-new-neighbors',
+    title: "Funny Gifts for New Neighbors (That Aren't a Bundt Cake)",
+    metaTitle: 'Funny Gifts for New Neighbors',
+    description:
+      "A shorter, funnier list of new-neighbor gifts beyond the usual candle and mug, including one that doubles as an actual icebreaker.",
+    html: `
+<p><strong>Short answer:</strong> Skip the candle. The standard new-neighbor welcome kit &mdash; a mug, a candle, a "Best Neighbor" sign &mdash; is nice but forgettable. A game you can actually play together the first time you hang out is the gift that turns "the people next door" into "the people we invite over." <strong>Eat Your Neighbor</strong> is the obvious pick for the pun alone, but it also happens to work as an actual icebreaker: 20&ndash;30 minutes, easy to teach, and it's a lot faster to bond over shared betrayal than over a candle neither of you will burn.</p>
+<p>Every "gifts for new neighbors" list online is some combination of a mug, a candle, a plate of cookies, and a fire pit. None of it is bad &mdash; it's just the same list everyone else gets too. Here's a shorter list of gifts that are actually funny, not just "nice," starting with the one that's basically a pun made physical.</p>
+
+<h2>1. Eat Your Neighbor &mdash; for the neighbor with a sense of humor</h2>
+<p>A card, dice, and board game where every player raises a family of small creatures called Nugs, and the whole table tries to get someone else's family eaten, buried, or run over first. Handing this to a new neighbor as a "welcome to the street" gift is either going to get a big laugh or immediately tell you everything you need to know about whether you're going to get along. 2&ndash;6 players, 20&ndash;30 minutes, easy to teach on the spot.</p>
+<p><a href="/#cards">See sample cards &rarr;</a></p>
+
+<h2>2. A "Best Neighbor Ever" candle (the control group)</h2>
+<p>The default gift for a reason &mdash; low effort, universally fine, and nobody's ever offended by a candle. Just don't expect it to start a friendship on its own.</p>
+
+<h2>3. A local coffee or spice blend</h2>
+<p>Practical, consumable, and it doesn't ask them to do anything with it beyond enjoy it once. A safe pick if you don't know their sense of humor yet.</p>
+
+<h2>4. A compact tabletop fire pit</h2>
+<p>A genuinely good "let's hang out on the porch" gift if you're hoping to actually spend time together &mdash; more of an investment than most welcome gifts, so it signals you're planning on this being a real friendship, not a one-time gesture.</p>
+
+<h2>5. Sparklers or a six-pack</h2>
+<p>Low-effort, zero-pressure, and it doubles as an invitation: "come use these with us" is an easier ask than "come over sometime."</p>
+
+<h2>Which one should you actually give?</h2>
+<ul>
+<li><strong>Want to actually start a friendship, not just say hello?</strong> Eat Your Neighbor &mdash; you'll know within one game whether you like them.</li>
+<li><strong>Don't know them at all yet, want something safe?</strong> Candle or coffee.</li>
+<li><strong>Hoping this turns into regular porch hangouts?</strong> Fire pit.</li>
+<li><strong>Want a zero-pressure "come hang out" excuse?</strong> Sparklers or a six-pack.</li>
+</ul>
+<p>Eat Your Neighbor is launching soon on Kickstarter. <a href="/">Sign up now</a> &mdash; before your (actual) neighbors do.</p>
+`,
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: "Funny Gifts for New Neighbors (That Aren't a Bundt Cake)",
+        description:
+          'A shorter, funnier list of new-neighbor gifts beyond the usual candle and mug, including one that doubles as an actual icebreaker.',
+        author: { '@type': 'Organization', name: 'Eat Your Neighbor' },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Eat Your Neighbor',
+          url: 'https://eatyourneighbor.com',
+        },
+        mainEntityOfPage: 'https://eatyourneighbor.com/blog/funny-gifts-for-new-neighbors',
+      },
+    ],
+  },
 ];
 
 export function getPost(slug: string) {

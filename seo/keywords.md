@@ -111,3 +111,18 @@ AI-answer citation since there's no dominant existing source.
 3. **"New party card games on Kickstarter 2026"** (Cluster 4) — lower raw
    traffic than #1/#2 but the highest-intent audience (people who actively
    fund new games), and doubles as direct Kickstarter-launch amplification.
+
+## Cluster 7 — New keywords added 2026-08-01 (round 3)
+By this round, clusters 1–6 above are already covered by published posts
+(see `posts.ts` / files `content-1` through `content-9`). Verified fresh
+demand via web search for three uncovered, non-cannibalizing angles:
+
+| Keyword | Intent | Traffic (qual.) | Priority |
+|---|---|---|---|
+| halloween party games for adults | High | High (seasonal, spikes Sept–Oct) | ⭐ Top priority — on-brand (cemetery/dark humor), published Aug 1 for ranking runway before the season |
+| best 2 player card games for adults | Med-High | Med (durable, dedicated content ecosystem: vanishingincmagic, playingcarddecks, tabletopbellhop) | High — distinct intent from Cluster 1, highlights EYN's 2–6 player range |
+| funny gift ideas for new neighbors | Med | Low-Med (existing lists are generic "gifts for neighbors," none card-game specific) | Med — low competition, strong on-brand pun, thin SEO field to break into |
+
+Content produced: `content-10-halloween-party-games.md`,
+`content-11-2-player-card-games.md`, `content-12-gifts-for-new-neighbors.md`
+— all added to `lib/posts.ts` and picked up automatically by `app/sitemap.ts`.
