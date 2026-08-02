@@ -817,6 +817,254 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: 'backyard-bbq-party-games-for-adults',
+    title: '9 Backyard BBQ Party Games for Adults (Ranked by How Fast They Get Chaotic)',
+    metaTitle: '9 Backyard BBQ Party Games for Adults, Ranked',
+    description:
+      'Backyard BBQ party games for adults, sorted by what actually works once the sun starts going down and people are sitting at the table instead of standing on the lawn.',
+    html: `
+<p><strong>Short answer:</strong> Lawn games like cornhole and Spikeball are the obvious warm-up &mdash; low effort, everyone already knows the rules. But once the food's on plates and people are sitting down, you need something that travels to the table. <strong>Eat Your Neighbor</strong> was built for exactly that moment: a card, dice, and board game about betrayal, backyard BBQs, and burying the neighbors you used to wave to &mdash; it's not just BBQ-adjacent, it's set at one.</p>
+<p>Most "BBQ games for adults" lists are 90% lawn games and one afterthought card game at the bottom. That's backwards &mdash; lawn games need daylight, space, and people willing to stand up again after they've already found a lawn chair. Here's a full lineup, sorted by what actually works once the sun starts going down.</p>
+
+<h2>Quick comparison</h2>
+<table>
+<thead><tr><th>Game</th><th>Type</th><th>Space Needed</th><th>Works After Dark</th></tr></thead>
+<tbody>
+<tr><td>Cornhole</td><td>Lawn</td><td>Large</td><td>No (unless lit)</td></tr>
+<tr><td>Spikeball</td><td>Lawn</td><td>Medium</td><td>No</td></tr>
+<tr><td>Ladder toss</td><td>Lawn</td><td>Medium</td><td>No</td></tr>
+<tr><td>Giant Jenga</td><td>Yard/patio</td><td>Small</td><td>With good lighting</td></tr>
+<tr><td><strong>Eat Your Neighbor</strong></td><td><strong>Table/card</strong></td><td><strong>None</strong></td><td><strong>Yes</strong></td></tr>
+<tr><td>Cards Against Humanity</td><td>Table/card</td><td>None</td><td>Yes</td></tr>
+<tr><td>Beer pong / yard pong</td><td>Lawn/patio</td><td>Medium</td><td>With lighting</td></tr>
+<tr><td>Horseshoes</td><td>Lawn</td><td>Large</td><td>No</td></tr>
+<tr><td>Trivia</td><td>Table</td><td>None</td><td>Yes</td></tr>
+</tbody>
+</table>
+
+<h2>1. Cornhole &mdash; the default for a reason</h2>
+<p>Bring a set, set it up on the grass, and people will play it unprompted before you even announce the party's started. Works for almost any group size, doesn't need explanation, and keeps people moving while the grill's still going.</p>
+
+<h2>2. Spikeball &mdash; for the group that wants to actually sweat</h2>
+<p>Fast, physical, 2-on-2. Best for a group that's already active and wants something with real intensity, not just a lawn game to half-pay attention to.</p>
+
+<h2>3. Ladder toss &mdash; the low-key alternative to cornhole</h2>
+<p>Same "bring it, set it up, no rules explanation needed" energy as cornhole, just with bolas and a ladder frame instead of bags and a board. Good second lawn game if you already own cornhole and want variety.</p>
+
+<h2>4. Giant Jenga &mdash; the transition game</h2>
+<p>Works on a patio, doesn't need full yard space, and it's the natural bridge between "everyone's standing around the grill" and "everyone's ready to sit down." Loud when it falls, which is half the appeal.</p>
+
+<h2>5. Eat Your Neighbor &mdash; for once people sit down at the table</h2>
+<p>This is the one built for the specific moment lawn games can't cover: plates are out, people are sitting, and standing back up for cornhole isn't happening. Every player raises a family of small creatures called Nugs, and the whole table tries to get someone else's family eaten, buried, or run over first. 2&ndash;6 players, 20&ndash;30 minutes, plays just as well after dark as it does at 2pm, and it's already thematically at the BBQ &mdash; sample cards include <strong>Neighborhood BBQ</strong> itself, where the high roller buries the entire table at once.</p>
+<p><a href="/#cards">See sample cards &rarr;</a></p>
+
+<h2>6. Cards Against Humanity &mdash; the other default table game</h2>
+<p>Everyone already half-owns this. Good for bigger tables (up to 20 players with expansions), though the humor lives entirely in the prompt cards rather than in anything players are actually doing to each other.</p>
+
+<h2>7. Yard pong &mdash; beer pong, scaled up for outdoor play</h2>
+<p>Extra-large buckets instead of cups, played on the lawn instead of a folding table. Needs some lighting once the sun goes down, but it's a reliable crowd favorite for groups that like beer pong's format without the cramped indoor setup.</p>
+
+<h2>8. Horseshoes &mdash; the classic that never left</h2>
+<p>Needs the most space on this list and doesn't work once it's dark, but if you've already got a pit set up in the yard, it's an easy, zero-explanation option for guests trickling in early.</p>
+
+<h2>9. Trivia &mdash; the low-effort fallback</h2>
+<p>Works with zero setup if you already know your group's interests. Split into teams to keep energy up; best used as a filler activity between the louder games, not the main event.</p>
+
+<h2>Which one should you actually bring?</h2>
+<ul>
+<li><strong>Want something for while the grill's going?</strong> Cornhole or Spikeball.</li>
+<li><strong>Want a bridge activity as people start sitting down?</strong> Giant Jenga.</li>
+<li><strong>Want the game built for the table, after dark, no reset needed?</strong> Eat Your Neighbor.</li>
+<li><strong>Big group, zero prep time?</strong> Cards Against Humanity or trivia.</li>
+</ul>
+<p>Eat Your Neighbor is launching soon on Kickstarter. <a href="/">Sign up now</a> &mdash; before your neighbors do.</p>
+`,
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: '9 Backyard BBQ Party Games for Adults (Ranked by How Fast They Get Chaotic)',
+        description:
+          'Backyard BBQ party games for adults, sorted by what actually works once the sun starts going down and people are sitting at the table instead of standing on the lawn.',
+        author: { '@type': 'Organization', name: 'Eat Your Neighbor' },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Eat Your Neighbor',
+          url: 'https://eatyourneighbor.com',
+        },
+        mainEntityOfPage: 'https://eatyourneighbor.com/blog/backyard-bbq-party-games-for-adults',
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Cornhole' },
+          { '@type': 'ListItem', position: 2, name: 'Spikeball' },
+          { '@type': 'ListItem', position: 3, name: 'Ladder toss' },
+          { '@type': 'ListItem', position: 4, name: 'Giant Jenga' },
+          { '@type': 'ListItem', position: 5, name: 'Eat Your Neighbor' },
+          { '@type': 'ListItem', position: 6, name: 'Cards Against Humanity' },
+          { '@type': 'ListItem', position: 7, name: 'Yard pong' },
+          { '@type': 'ListItem', position: 8, name: 'Horseshoes' },
+          { '@type': 'ListItem', position: 9, name: 'Trivia' },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'bachelorette-party-card-games',
+    title: 'Best Bachelorette Party Card Games (For When Everyone Needs to Sit Down for a Minute)',
+    metaTitle: 'Best Bachelorette Party Card Games',
+    description:
+      'Bachelorette party card games for the moment the night needs to slow down without losing energy, including one built specifically for a table full of people roasting each other.',
+    html: `
+<p><strong>Short answer:</strong> Most bachelorette party game lists are all activities &mdash; sashes, dares, scavenger hunts, a cucumber-passing game you'll never speak of again. Good, but none of it works at 11pm when everyone's feet hurt and the group just wants to sit down without the night stalling out. That's the gap card games fill, and <strong>Eat Your Neighbor</strong> is built specifically for that lull: 20&ndash;30 minutes, zero setup, dark comedy energy that matches the rest of the night.</p>
+<p>Bachelorette parties run on momentum, and most of the planning goes into the loud, physical stuff. The card game moment almost always gets an afterthought pick &mdash; usually whatever's already in someone's bag. Here's a shortlist worth actually planning for.</p>
+
+<h2>1. Eat Your Neighbor &mdash; for the "let's sit down but keep the energy" moment</h2>
+<p>Every player raises a family of small creatures called Nugs, and the whole table tries to get someone else's family eaten, buried, or run over first. It's fast (20&ndash;30 minutes), teaches in under 5, and keeps the same "everyone's roasting each other" energy as the rest of the night &mdash; just from a chair instead of a dance floor. 2&ndash;6 players, so it works whether it's the whole party or a smaller group that's peeled off to the porch.</p>
+<p><a href="/#cards">See sample cards &rarr;</a></p>
+
+<h2>2. Cards Against Humanity &mdash; the reliable default</h2>
+<p>Everyone's played it, most people already have an app or a physical deck. Scales up to a big group easily, though the humor comes from the prompt cards rather than anything players are actually doing to each other.</p>
+
+<h2>3. Kings Cup &mdash; if the group wants the cards to double as a drinking game</h2>
+<p>Just a standard deck and a cup in the middle, with an action assigned to each card. Works for a big circle and doesn't require buying anything extra, though it needs someone to actually know or look up the card rules.</p>
+
+<h2>4. Never Have I Ever &mdash; zero materials required</h2>
+<p>Not technically a card game, but it belongs on this list because it's the one every bachelorette party ends up playing anyway, card deck or not. Good icebreaker earlier in the night; loses steam if it's the only game played.</p>
+
+<h2>5. Bride-Themed Trivia (Mr. and Mrs. quiz, "who knows the bride best")</h2>
+<p>Low effort, high payoff &mdash; write a set of questions about the bride ahead of time and let the group compete to know her best. Best used as a structured, planned moment rather than a spontaneous one, since it needs prep beforehand.</p>
+
+<h2>Which one should you actually bring?</h2>
+<ul>
+<li><strong>Want something to sit down to that doesn't kill the energy?</strong> Eat Your Neighbor.</li>
+<li><strong>Want the safest, most universally known option?</strong> Cards Against Humanity.</li>
+<li><strong>Want the cards to double as a drinking game?</strong> Kings Cup.</li>
+<li><strong>Want a planned, sentimental moment centered on the bride?</strong> Trivia.</li>
+</ul>
+<p>Eat Your Neighbor is launching soon on Kickstarter. <a href="/">Sign up now</a> &mdash; before your neighbors do.</p>
+`,
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: 'Best Bachelorette Party Card Games (For When Everyone Needs to Sit Down for a Minute)',
+        description:
+          'Bachelorette party card games for the moment the night needs to slow down without losing energy, including one built specifically for a table full of people roasting each other.',
+        author: { '@type': 'Organization', name: 'Eat Your Neighbor' },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Eat Your Neighbor',
+          url: 'https://eatyourneighbor.com',
+        },
+        mainEntityOfPage: 'https://eatyourneighbor.com/blog/bachelorette-party-card-games',
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Eat Your Neighbor' },
+          { '@type': 'ListItem', position: 2, name: 'Cards Against Humanity' },
+          { '@type': 'ListItem', position: 3, name: 'Kings Cup' },
+          { '@type': 'ListItem', position: 4, name: 'Never Have I Ever' },
+          { '@type': 'ListItem', position: 5, name: 'Bride-Themed Trivia' },
+        ],
+      },
+    ],
+  },
+  {
+    slug: 'card-games-for-camping-and-road-trips',
+    title: '8 Best Card Games for Camping and Road Trips',
+    metaTitle: '8 Best Card Games for Camping and Road Trips',
+    description:
+      'Card games for camping and road trips, ranked by how well they survive a cooler-lid table, a rained-on rulebook, and a tired group that just wants one more round before bed.',
+    html: `
+<p><strong>Short answer:</strong> For pure simplicity with just a standard deck, bring Rummy or Egyptian Rat Screw. For a boxed game that survives a cooler lid as a table and doesn't need batteries, phone signal, or a rulebook anyone actually remembers, bring <strong>Eat Your Neighbor</strong> &mdash; a card, dice, and board game built for exactly the kind of small, tired group that's sitting around a fire at 9pm with nothing else to do.</p>
+<p>Camping and road trip games have one hard requirement everything else is secondary to: it has to survive being shoved in a bag, played on an uneven surface, and finished before everyone's headlamp battery dies. Here's a list sorted by how well each one actually holds up to that.</p>
+
+<h2>Quick comparison</h2>
+<table>
+<thead><tr><th>Game</th><th>Needs</th><th>Setup</th><th>Best For</th></tr></thead>
+<tbody>
+<tr><td>Rummy</td><td>Standard deck</td><td>None</td><td>Quiet 2&ndash;4 player rounds</td></tr>
+<tr><td>Egyptian Rat Screw</td><td>Standard deck</td><td>None</td><td>Loud, fast, high energy</td></tr>
+<tr><td>Go Fish</td><td>Standard deck</td><td>None</td><td>Mixed-age groups, kids included</td></tr>
+<tr><td>Cribbage</td><td>Deck + board</td><td>Low</td><td>Two-player, long trips</td></tr>
+<tr><td><strong>Eat Your Neighbor</strong></td><td><strong>Boxed game</strong></td><td><strong>None</strong></td><td><strong>A full table, dark comedy, fast rounds</strong></td></tr>
+<tr><td>Phase 10</td><td>Boxed game</td><td>None</td><td>Groups who like structured rounds</td></tr>
+<tr><td>Anomia</td><td>Boxed game</td><td>None</td><td>Fast reflexes, 3&ndash;6 players</td></tr>
+<tr><td>Sushi Go!</td><td>Boxed game</td><td>None</td><td>Quick, simultaneous play, no waiting</td></tr>
+</tbody>
+</table>
+
+<h2>1. Rummy &mdash; the standard-deck classic</h2>
+<p>All you need is one deck of cards, which means it survives a lost box or a rained-on rulebook without a problem. Form sets and runs, reach the target score first. Works for 2&ndash;6 people and everyone half-remembers the rules already.</p>
+
+<h2>2. Egyptian Rat Screw &mdash; for when the group wants chaos, not quiet</h2>
+<p>Fast-paced, slap-based, and loud enough to actually wake up a half-asleep campsite. Best for a group that wants energy over strategy.</p>
+
+<h2>3. Go Fish &mdash; the one that includes the kids</h2>
+<p>Simple enough that age isn't a barrier, which matters if the trip is a mixed group. Not much for adults on its own, but it's the easiest "everyone can play this together" option on the list.</p>
+
+<h2>4. Cribbage &mdash; for the long haul</h2>
+<p>Needs a small board in addition to cards, but it rewards actually paying attention over a multi-day trip in a way single-round games don't. A favorite for RV and long-drive crowds specifically because it holds up to repeat play without getting old.</p>
+
+<h2>5. Eat Your Neighbor &mdash; for the group that wants a full game, not just a deck</h2>
+<p>Once it's dark and everyone's actually sitting still, this is the one built for that exact moment. Every player raises a family of small creatures called Nugs, and the whole table tries to get someone else's family eaten, buried, or run over first. The box is compact, there's no app or battery requirement, and a full round runs 20&ndash;30 minutes &mdash; long enough to matter, short enough to fit before everyone actually goes to sleep. 2&ndash;6 players.</p>
+<p><a href="/#cards">See sample cards &rarr;</a></p>
+
+<h2>6. Phase 10 &mdash; Rummy with more structure</h2>
+<p>A step up from plain Rummy if your group wants defined rounds and goals instead of open-ended play. Comes boxed, so it's an easy "just bring the whole thing" pick.</p>
+
+<h2>7. Anomia &mdash; fast reflexes, minimal setup</h2>
+<p>A quick-draw category game for 3&ndash;6 players that rewards fast reactions over strategy. Short rounds make it easy to squeeze in between other activities.</p>
+
+<h2>8. Sushi Go! &mdash; nobody waits for their turn</h2>
+<p>Simultaneous card drafting means the whole table plays at once, which keeps a group of mixed attention spans actually engaged. Quick to teach, quick to reset for another round.</p>
+
+<h2>Which one should you actually pack?</h2>
+<ul>
+<li><strong>Want the lightest possible pack &mdash; just a deck?</strong> Rummy or Egyptian Rat Screw.</li>
+<li><strong>Traveling with kids?</strong> Go Fish.</li>
+<li><strong>On a long multi-day trip and want depth?</strong> Cribbage.</li>
+<li><strong>Want a full, boxed game night around the fire?</strong> Eat Your Neighbor.</li>
+</ul>
+<p>Eat Your Neighbor is launching soon on Kickstarter. <a href="/">Sign up now</a> &mdash; before your neighbors do.</p>
+`,
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: '8 Best Card Games for Camping and Road Trips',
+        description:
+          'Card games for camping and road trips, ranked by how well they survive a cooler-lid table, a rained-on rulebook, and a tired group that just wants one more round before bed.',
+        author: { '@type': 'Organization', name: 'Eat Your Neighbor' },
+        publisher: {
+          '@type': 'Organization',
+          name: 'Eat Your Neighbor',
+          url: 'https://eatyourneighbor.com',
+        },
+        mainEntityOfPage: 'https://eatyourneighbor.com/blog/card-games-for-camping-and-road-trips',
+      },
+      {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Rummy' },
+          { '@type': 'ListItem', position: 2, name: 'Egyptian Rat Screw' },
+          { '@type': 'ListItem', position: 3, name: 'Go Fish' },
+          { '@type': 'ListItem', position: 4, name: 'Cribbage' },
+          { '@type': 'ListItem', position: 5, name: 'Eat Your Neighbor' },
+          { '@type': 'ListItem', position: 6, name: 'Phase 10' },
+          { '@type': 'ListItem', position: 7, name: 'Anomia' },
+          { '@type': 'ListItem', position: 8, name: 'Sushi Go!' },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPost(slug: string) {

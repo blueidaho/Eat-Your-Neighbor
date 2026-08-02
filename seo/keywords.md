@@ -126,3 +126,20 @@ demand via web search for three uncovered, non-cannibalizing angles:
 Content produced: `content-10-halloween-party-games.md`,
 `content-11-2-player-card-games.md`, `content-12-gifts-for-new-neighbors.md`
 — all added to `lib/posts.ts` and picked up automatically by `app/sitemap.ts`.
+
+## Cluster 8 — New keywords added 2026-08-02 (round 4)
+Clusters 1–7 are now covered. Verified fresh demand via web search for
+three more angles, chosen to stay an honest fit for a 2–6 player, no-app,
+20–30 minute boxed game (ruled out "8+ player" and generic "drinking card
+game" framings as a mismatch for EYN's actual player count and mechanics):
+
+| Keyword | Intent | Traffic (qual.) | Priority |
+|---|---|---|---|
+| backyard bbq party games for adults | High | Med-High (dedicated but low-authority ecosystem: bocce-cornhole.com, unwrappingsmiles.com, owntheyard.com) | ⭐ Top priority — directly on-brand, site copy already says "backyard BBQs" |
+| bachelorette party games / bachelorette party card games | High | High (theknot, classpop, kennedyblue all publish annually) but nearly all coverage is non-card activities, leaving the card-game angle within this cluster underserved | High — differentiated niche within a big cluster, honest fit for a sit-down lull in the night |
+| best card games for camping / road trips | Med-High | Med (rvlifestyle, camplabx, jokerpalace) | High — distinct from the existing 2-player post, plays to EYN's compact box / no-battery / no-app strengths |
+
+Content produced: `content-13-backyard-bbq-party-games.md`,
+`content-14-bachelorette-party-card-games.md`,
+`content-15-camping-road-trip-card-games.md` — all added to `lib/posts.ts`
+and picked up automatically by `app/sitemap.ts`.
