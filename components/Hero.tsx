@@ -56,8 +56,11 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="text-lg text-ink/70 font-semibold mb-8 max-w-md"
           >
-            A dice-and-card party game about betrayal, backyard BBQs, and burying
-            the people you used to wave to. 2–6 players. Zero chill.
+            🍽️ EAT YOUR NEIGHBOR is coming to Kickstarter!
+            <br />
+            Sign up below to get a launch alert the exact minute we go live,
+            lock in limited Early Bird discounts, and get a free
+            print-and-play appetizer version of the game! 👇
           </motion.p>
 
           <motion.p
