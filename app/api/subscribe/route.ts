@@ -61,7 +61,8 @@ export async function POST(req: NextRequest) {
   }
 
   // Best-effort email notification — the MailerLite list above is the
-  // source of truth, so a failure here shouldn't fail the whole request.
+  // source of truth, so this runs in the background and never delays the
+  // response the visitor is waiting on.
   const host = process.env.SMTP_HOST ?? 'smtp.hostinger.com';
   const port = Number(process.env.SMTP_PORT ?? 465);
   const user = process.env.SMTP_USER;
@@ -69,25 +70,23 @@ export async function POST(req: NextRequest) {
   const notifyTo = process.env.NOTIFY_EMAIL ?? user;
 
   if (user && pass) {
-    try {
-      const transporter = nodemailer.createTransport({
-        host,
-        port,
-        secure: port === 465,
-        auth: { user, pass },
-      });
+    const transporter = nodemailer.createTransport({
+      host,
+      port,
+      secure: port === 465,
+      auth: { user, pass },
+    });
 
-      await transporter.sendMail({
+    transporter
+      .sendMail({
         from: `"Eat Your Neighbor" <${user}>`,
         to: notifyTo,
         replyTo: email,
         subject: 'New Eat Your Neighbor waitlist signup',
         text: `New signup: ${email}`,
         html: `<p>New waitlist signup: <strong>${email}</strong></p>`,
-      });
-    } catch (err) {
-      console.error('SMTP notification failed (non-fatal):', err);
-    }
+      })
+      .catch((err) => console.error('SMTP notification failed (non-fatal):', err));
   }
 
   return NextResponse.json({ ok: true });
