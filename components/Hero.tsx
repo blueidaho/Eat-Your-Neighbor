@@ -91,7 +91,7 @@ export default function Hero() {
           <div className="border-[3px] border-ink rounded-3xl overflow-hidden shadow-comic-lg bg-white">
             <Image
               src="/images/game-board.jpg"
-              alt="The Eat Your Neighbor game board, featuring Downtown Nugsville, Nugtopia, Retch Island, and the Cemetery"
+              alt="The Eat Your Neighbor game set up on a table, with the game board, box, cards, and Nug pieces"
               width={1200}
               height={1200}
               priority
