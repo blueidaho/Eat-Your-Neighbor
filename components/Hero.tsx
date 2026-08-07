@@ -58,9 +58,8 @@ export default function Hero() {
           >
             🍽️ EAT YOUR NEIGHBOR is coming to Kickstarter!
             <br />
-            Sign up below to get a launch alert the exact minute we go live,
-            lock in limited Early Bird discounts, and get a free
-            print-and-play appetizer version of the game! 👇
+            Sign up below to get a launch alert the exact minute we go live
+            and lock in limited Early Bird discounts! 👇
           </motion.p>
 
           <motion.p
