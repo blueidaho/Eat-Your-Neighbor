@@ -4,6 +4,19 @@ const nextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
   },
+  async redirects() {
+    return [
+      {
+        // www and apex both currently resolve with 200 OK and identical
+        // content — that's the direct cause of Google's "Duplicate without
+        // user-selected canonical" flag. Force one canonical host.
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.eatyourneighbor.com' }],
+        destination: 'https://eatyourneighbor.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

@@ -85,10 +85,17 @@ Low priority — a `CollectionPage`/`Blog` schema here is optional and lower
 value than what's already fixed. Flagging for later, not fixing now to
 avoid scope creep.
 
-### 9. No canonical URLs set explicitly
-Next.js infers canonicals from the route by default, which is correct here
-since there's no query-param or trailing-slash duplication risk currently.
-Revisit if the blog grows to have pagination or filtering.
+### 9. No canonical URLs set — caused a live duplicate-content issue
+Previously assessed as no risk, but that was wrong: `eatyourneighbor.com`
+and `www.eatyourneighbor.com` both resolve with `200 OK` and byte-identical
+HTML (no host-level redirect existed between them), and no page emitted a
+`<link rel="canonical">`. Google Search Console flagged this as "Duplicate
+without user-selected canonical" across indexed pages.
+**Status: Fixed** — added a permanent `www` → apex redirect in
+`next.config.mjs` `redirects()`, and set explicit `alternates.canonical` on
+the homepage, `/blog`, and every `/blog/[slug]` page (resolved against
+`metadataBase` in the root layout). Re-verify in Search Console after the
+next crawl that affected URLs move to "Indexed."
 
 ### 10. `og:image`/`twitter:image` point at a JPG, not an OG-optimized 1200x630 image
 `game-board.jpg` is used for social previews site-wide, including on blog

@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: 'Blog — Eat Your Neighbor',
   description:
     'Guides, comparisons, and everything else about Eat Your Neighbor, the card, dice, and board game about eating your terrible neighbors.',
+  alternates: { canonical: '/blog' },
 };
 
 export default function BlogIndex() {
